@@ -1,0 +1,92 @@
+/* COMMON RULES */
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    background-color: #efefef;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    /* border: 3px solid tomato; */
+}
+
+section {
+    background-color: #ffffff;
+    padding: 60px 30px;
+    margin-top: 61px;
+    border-radius: 10px;
+}
+.baseline {
+    color: #6c6c6c;
+    font-size: 12px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.tempstotal {
+    text-align: center;
+    background-color: #8a98b1;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0px;
+    margin: 0 310px;
+    border-radius: 10px;
+}
+.photos {
+    padding: 50px;
+}
+
+section div img {
+    height: 280px;
+    width: 280px;
+    object-fit: cover;
+    object-position: top;
+    /* margin-right: 30px; */
+    border-radius: 10%;
+}
+
+/* ---------------- */
+/* HEADER */
+/* ---------------- */
+
+header {
+    background-color: white;
+    height: 81px;
+    border-bottom: 1px solid #f3735f;
+}
+
+header img {
+    width: 200px;
+    margin-top: 20px;
+}
+
+/* ---------------- */
+/* TITLES */
+/* ---------------- */
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #3a3d6c;
+    text-align: center;
+}
+
+/* h2 {
+    font-size: 30;
+    font-weight: bold;
+    color: #f3735f;
+    margin-top: 70px;
+    margin-bottom: 20px;
+} */
+
+/* h3 {
+    font-size: 18;
+    font-weight: bold;
+    color: #393c6c;
+    line-height: 22px;
+}  */
