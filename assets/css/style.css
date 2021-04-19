@@ -32,7 +32,7 @@ section {
     background-color: #8a98b1;
     color: white;
     font-size: 20px;
-    font-weight: bold;
+    /* font-weight: bold; */
     padding: 13px 0px;
     margin: 0 285px;
     border-radius: 10px;
@@ -44,10 +44,15 @@ section {
 section div img {
     height: 291px;
     width: 291px;
-    object-fit: cover;
-    object-position: center;
+    /* object-fit: cover;
+    object-position: center; */
     margin: 13px;
     border-radius: 10px;
+}
+
+.color_ingredients {
+    color: #6c6c6c;
+    line-height: 22px;
 }
 
 /* ---------------- */
@@ -77,16 +82,17 @@ h1 {
 }
 
 h2 {
-    font-size: 30;
-    font-weight: bold;
+    font-size: 30px;
+    /* font-weight: bold; */
     color: #f3735f;
     margin-top: 70px;
     margin-bottom: 20px;
 }
 
 h3 {
-    font-size: 18;
+    font-size: 18px;
     font-weight: bold;
     color: #393c6c;
     line-height: 22px;
+    margin-top: 20px;
 }
